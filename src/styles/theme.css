@@ -1,0 +1,85 @@
+/* ============================================================
+   KARMA MINING — design tokens
+   Illustrated student-event identity (orange / cream / teal).
+   Change colours here to re-theme the whole site — components
+   and globals.css consume ONLY these variables.
+   ============================================================ */
+:root {
+  /* Brand palette (primary reference) */
+  --karma-orange: #fb6624;
+  --karma-orange-deep: #d94f14;
+  --karma-ember: #8a3d00;
+  --karma-orange-soft: #ff8a4d;
+  --karma-cream: #f6e9d8;
+  --karma-light: #fff2e1;
+  --karma-teal: #35b3a8;
+  --karma-teal-deep: #0f7a70;
+  --karma-teal-ink: #0d2b28;
+  --karma-gold: #f2b96a;
+  --karma-gold-deep: #c77f1a;
+  --karma-black: #111111;
+  --karma-muted: #ecdfcf;
+
+  /* Ink — tuned for contrast on cream */
+  --ink: #111111;
+  --ink-dim: #2c251c;
+  --muted: #4c4436;
+  --faint: #6a5c46;
+
+  /* Surfaces */
+  --bg-0: #f6e9d8;
+  --bg-1: #f6e9d8;
+  --bg-2: #ecdfcf;
+  --card: #fff2e1;
+  --card-2: #ffffff;
+  --line: rgba(17, 17, 17, 0.16);
+  --line-soft: rgba(17, 17, 17, 0.09);
+  --hard-line: #111111;
+
+  /* Accents (legacy names kept so components keep working) */
+  --gold: #8a4a00;
+  --gold-deep: #c77f1a;
+  --gold-soft: rgba(242, 185, 106, 0.28);
+  --gold-line: rgba(138, 74, 0, 0.4);
+
+  /* Secondary (legacy names mapped to teal family) */
+  --iris: #0f7a70;
+  --iris-soft: rgba(53, 179, 168, 0.18);
+  --iris-line: rgba(15, 122, 112, 0.45);
+  --mint: #35b3a8;
+
+  /* Status */
+  --live: #0f7a70;
+  --ended: #b3261e;
+
+  /* Typography */
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Shape / elevation — illustrated hard shadows, minimal rounding */
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --shadow-1: 6px 6px 0 #111111;
+  --shadow-sm: 4px 4px 0 #111111;
+  --shadow-gold: 6px 6px 0 #111111;
+
+  /* Layout */
+  --max: 1140px;
+  --nav-h: 68px;
+
+  /* Spacing scale */
+  --space-sm: 12px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --section-pad: clamp(56px, 8vw, 100px);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.9, 0.28, 1);
+  --dur: 560ms;
+}
+
+::selection {
+  background: var(--karma-orange);
+  color: #fff2e1;
+}
